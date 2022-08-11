@@ -1,5 +1,6 @@
 import requests
 import csv
+import pymysql
 
 smsCsv = open('sms.csv', 'w', encoding='utf-8', newline='')
 emailCsv = open('email.csv', 'w', encoding='utf-8', newline='')
